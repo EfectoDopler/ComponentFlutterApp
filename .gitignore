@@ -72,3 +72,10 @@ build/
 *.d
 *.d
 *.stamp
+*.dill
+build/ios/iphonesimulator/Runner.app/Runner
+build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter
+build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources
+build/ios/Debug-iphonesimulator/Runner.app/Runner
+build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter
+build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources
