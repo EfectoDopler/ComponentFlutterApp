@@ -1,0 +1,23 @@
+{
+    "nombreApp" : "app",
+    "rutas" : [
+        {
+            "ruta" : "alert",
+            "icon" : "add_alert",
+            "texto": "Alertas",
+            "subTexto": "Go to Alertas"
+        },
+        {
+            "ruta" : "avatar",
+            "icon" : "accessibility",
+            "texto": "Avatars",
+            "subTexto": "Go to Avatars"
+        },
+        {
+            "ruta" : "card",
+            "icon" : "folder_open",
+            "texto": "Cards - Tarjetas",
+            "subTexto": "Go to Cards - Tarjetas"
+        }
+    ]
+}
