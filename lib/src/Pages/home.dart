@@ -1,7 +1,10 @@
+import 'package:app/src/Pages/cards.dart';
 import "package:flutter/material.dart";
 
 import "package:app/src/providers/menu_provider.dart";
 import "package:app/src/Utils/iconUtilities.dart";
+import "package:app/src/Pages/alerts.dart";
+import "package:app/src/Pages/avatar.dart";
 
 class HomePage extends StatelessWidget {
   @override
@@ -18,13 +21,13 @@ class HomePage extends StatelessWidget {
       initialData: [],
       builder: (context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(
-          children: _itemList(snapshot.data),
+          children: _itemList(snapshot.data, context),
         );
       },
     );
   }
 
-  List<Widget> _itemList(List<dynamic> data) {
+  List<Widget> _itemList(List<dynamic> data, BuildContext context) {
     List<Widget> list = [];
 
     data.forEach((opt) {
@@ -33,6 +36,9 @@ class HomePage extends StatelessWidget {
         trailing: Icon(Icons.arrow_right),
         title: Text(opt['texto']),
         subtitle: Text(opt['subTexto']),
+        onTap: () {
+          Navigator.pushNamed(context, opt['ruta']);
+        },
       );
 
       list.add(itemOpt);

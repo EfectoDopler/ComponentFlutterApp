@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:app/src/Pages/home.dart';
+import 'package:app/src/Utils/Routes/routeMap.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "App",
-      home: HomePage(),
+      initialRoute: '/',
+      routes: routes,
     );
   }
 }
