@@ -18,6 +18,30 @@
             "icon" : "folder_open",
             "texto": "Cards - Tarjetas",
             "subTexto": "Go to Cards - Tarjetas"
+        },
+        {
+            "ruta" : "animatedContainer",
+            "icon" : "folder_open",
+            "texto": "Animated Container",
+            "subTexto": "Go to Animated Container"
+        },
+        {
+            "ruta" : "textInputs",
+            "icon" : "folder_open",
+            "texto": "Text Inputs",
+            "subTexto": "Go to Text Inputs"
+        },
+        {
+            "ruta" : "sliders",
+            "icon" : "folder_open",
+            "texto": "sliders",
+            "subTexto": "Go to sliders"
+        },
+        {
+            "ruta" : "lists",
+            "icon" : "folder_open",
+            "texto": "lists",
+            "subTexto": "Go to lists"
         }
     ]
 }
